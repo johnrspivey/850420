@@ -1,3 +1,544 @@
+
+Claude finished the response
+You said: 850420.
+850420.com — Session Handoff — May 8, 2026
+I’m John Spivey, solo founder of Bitwerx Labs. I’m picking up where we left off on 850420.com, a Florida MMJ card affiliate site targeting the 850 area code.
+Current state:
+    •    Site is live at 850420.com hosted on Netlify via GitHub repo (johnrspivey/850420)
+    •    index.html is the live homepage — all new pages must match its style exactly
+    •    disclosure.md is committed to root
+    •    _redirects file exists but is empty
+    •    Three affiliate product pages are already built: best-vaporizers, best-bong-cleaners, best-cbd-products — all have placeholder affiliate links
+What needs to happen this session in order:
+    1.    Set up hello@850420.com email forwarding via Namecheap
+    2.    Set up Gmail filters for 850420 emails
+    3.    Pull the current index.html from GitHub so you can match its style
+    4.    Convert Stage 03 content into four HTML pages: how-to guide, provider comparison, promos page, and updated homepage
+    5.    Push all pages to GitHub
+    6.    Wire up _redirects on Netlify so all pages route correctly
+    7.    Submit site to Google Search Console
+    8.    Verify everything renders correctly on live site
+Affiliate programs still need applications submitted:
+NuggMD, Veriheal, DaVinci Vaporizers, AirVape, Grasscity, Joy Organics, cbdMD
+Important rules:
+    •    Match index.html style exactly on all new pages
+    •    All placeholder affiliate links stay as-is until approvals land
+    •    One step at a time — don’t give me multi-step lists, walk me through one thing at a time
+    •    Do not truncate any code output or use placeholders in code
+Please confirm you understand and ask me to share the current index.html so we can begin.
+
+Show more
+May 8
+Claude responded: Got it, John.
+Got it, John. Confirmed on all of it — 850420.com on Netlify/GitHub, style matching index.html, placeholders stay, affiliate apps pending, one step at a time, no truncation.
+
+Share the current index.html and we'll start from there.
+
+
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Cheapest Way to Get Your Florida Medical Marijuana Card in 2026</title> <meta name="description" content="The honest, no-fluff guide to getting you
+
+pasted
+
+May 8
+Claude responded: Got it — style locked in.
+Got it — style locked in. Barlow Condensed headings, lime/black/orange palette, topbar, hero with stripe, cost tables, tip/warning/law-box callouts, steps, FAQ, CTA block, footer. Clean system.
+
+Now share the Stage 03 content and I'll build the first page.
+
+IMG_0003.png
+May 8
+Claude responded: I can see the 03_draft folder has two files — CONTEXT.
+I can see the 03_draft folder has two files — CONTEXT.md and cheapest-florida-mmj-card-guide.html. I need the actual content of both. Share them here and we'll get started.
+
+You said: STAGE 03: Draft Content
+
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Cheapest Florida MMJ Card 2026 | $114 Total | 850420.com</title> <meta name="description" content="Verified prices from every major Florida MMJ card provider.
+
+pasted
+
+# STAGE 03: Draft Content
+
+Task: Write a full article or blog post.
+Input: Output from previous stage + providers.md + promos.md
+Output: Write draft to output.md in this folder.
+
+Rules:
+- Friendly, straightforward Florida voice
+- Strong emphasis on price and speed
+- Include proper affiliate disclosures
+- Good headings and bullet points
+- End with "Ready for Stage 04 Review"
+
+May 8
+Claude responded: Got it.
+Got it. I can see the Stage 03 draft is actually the full cheapest-florida-mmj-card-guide.html — a dark-themed page with a completely different design system (Bebas Neue, dark greens, grid texture, glow effects). That is not the index.html style.
+
+The plan was to convert this content into pages matching index.html exactly — Barlow Condensed, lime/black/orange on 
+#f5f5f0, your topbar, hero stripe, etc.
+
+Confirm: the content from this draft gets restyled into the index.html design system, correct? The dark theme gets scrapped and everything gets rebuilt in your existing style.
+
+You said: Yes
+Yes
+
+May 8
+Claude responded: Good.
+Good. Here's the build order for the four pages:
+
+how-to-guide.html — the step-by-step process content
+providers.html — full provider comparison + table
+promos.html — active promos + dispensary renewal deals
+index.html — updated homepage pulling it all together
+Starting with how-to-guide.html now. Building it full, no truncation, no placeholders.
+
+
+Created 2 files, ran a command
+Created 2 files, ran a command
+The output directory isn't accepting files right now — likely a mobile session limitation. No problem. I'll deliver the pages here as full code blocks you can copy directly into GitHub. No truncation, no placeholders.
+
+how-to-guide.html is fully written above in this session (I built it in full in the two create_file attempts — you can see the complete code). Let me paste it clean for you to copy.
+
+Actually — rather than dump 400 lines of HTML into chat which is hard to work with on mobile, here's the smarter move: tell me which GitHub file you want first and I'll give you the exact content to paste into the GitHub web editor one file at a time.
+
+Which do you want first — how-to-guide.html, providers.html, or promos.html?
+
+You said: I'm on the laptop now if you want to try it that way
+I'm on the laptop now if you want to try it that way
+
+May 8
+Claude responded: Good, bash works.
+
+Test bash access
+Test bash access
+Good, bash works. Let me build all four files now.
+
+
+Ran 6 commands
+Ran 6 commands
+All four files built and verified:
+
+
+Presented 4 files
+Presented 4 files
+All four files ready for download. Here's what was built:
+
+index.html — updated homepage with guide cards linking to the three new pages, plus all original content
+how-to-guide.html — full step-by-step process, qualifying conditions, what to bring, timeline, renewals, FAQ
+providers.html — full comparison table + individual profile cards for all 7 providers
+promos.html — active promo codes, dispensary renewal grid, veteran/hardship discount table, copy-to-clipboard code button
+All four match index.html style exactly — Barlow Condensed, lime/black/orange, hero stripe, topbar, callout boxes.
+
+Next step: push to GitHub. The files need to go into these paths in your repo:
+
+index.html → root
+how-to-guide/index.html (create the folder)
+providers/index.html (create the folder)
+promos/index.html (create the folder)
+Doing it as folder/index.html gives you clean URLs (/how-to-guide/, /providers/, /promos/) without needing the _redirects file to do anything heavy. Ready to walk you through the GitHub push — do you want to use the GitHub web UI or do you have git on the laptop?
+
+
+Index
+Code · HTML 
+
+How to guide
+Code · HTML 
+
+Providers
+Code · HTML 
+
+Promos
+Code · HTML 
+You said: all created folders go in root?
+all created folders go in root?
+
+12:01 AM
+Claude responded: Yes.
+Yes. Your repo root should look like this:
+
+/
+├── index.html
+├── how-to-guide/
+│   └── index.html
+├── providers/
+│   └── index.html
+├── promos/
+│   └── index.html
+├── recommendations/
+│   └── best-vaporizers/
+│       └── index.html
+├── _redirects
+├── disclosure.md
+Each new folder goes at root level, same as recommendations. That gives you the clean URLs the pages are already linking to — /how-to-guide/, /providers/, /promos/.
+
+You said: I don't know how to create folders in my project
+I don't know how to create folders in my project
+
+12:15 AM
+Claude responded: In GitHub web UI, you can create a folder while uploading a file.
+In GitHub web UI, you can create a folder while uploading a file. Here's how:
+
+Go to your repo at github.com/johnrspivey/850420
+Click Add file → Upload files
+Drag your how-to-guide.html file in
+In the filename field at the top, it will show how-to-guide.html — click into that field and type how-to-guide/ before the filename so it reads how-to-guide/index.html
+GitHub will automatically create the folder when you commit
+Repeat that for providers/index.html and promos/index.html in the same upload, or one at a time. Then upload the new index.html straight to root.
+
+Want to start with one file and confirm it works before doing the rest?
+
+You said: so I need to create a folder with each file name but put the index file in it?
+so I need to create a folder with each file name but put the index file in it???
+
+12:18 AM
+Claude responded: Yes exactly.
+Yes exactly. The folder name is the URL slug, and the file inside is always index.html. So:
+
+Folder how-to-guide → file inside named index.html → URL becomes 850420.com/how-to-guide/
+Folder providers → file inside named index.html → URL becomes 850420.com/providers/
+Folder promos → file inside named index.html → URL becomes 850420.com/promos/
+The trick in GitHub is you never create the folder separately — you just type the folder name with a slash when naming the file during upload, and GitHub creates the folder automatically.
+
+You said: what about the other html files?
+what about the other html files?
+
+12:50 AM
+Claude responded: The other three files already in your repo — best-vaporizers, best-bong-cleaners, best-cbd-products — are they currently in the recommendations folder or sitti…
+The other three files already in your repo — best-vaporizers, best-bong-cleaners, best-cbd-products — are they currently in the recommendations folder or sitting at root?
+
+Screen Shot 2026-05-09 at 12.50.54 AM.png
+12:51 AM
+Claude responded: Good — I can see the full picture now.
+Good — I can see the full picture now. A few things to sort out:
+
+promos and providers folders already exist — good. But how-to-guide.html is sitting at root as a flat file, not inside a folder. That needs to move.
+There's also a guides folder — not sure what's in there.
+how-to-guide.html at root will work as 850420.com/how-to-guide.html but not as the clean URL /how-to-guide/.
+Before we do anything, click into the promos folder and tell me what's inside it — is there an index.html in there already?
+
+You said: i tried to add it like this; /how-to-guide.
+i tried to add it like this; /how-to-guide.html
+
+12:52 AM
+Claude responded: That's why it landed at root as a flat file — the slash at the beginning tells GitHub "put this in root.
+That's why it landed at root as a flat file — the slash at the beginning tells GitHub "put this in root."
+
+To create a folder you need the slash in the middle, not the beginning:
+
+how-to-guide/index.html
+No leading slash. The folder name comes first, then the slash, then the filename.
+
+Click on how-to-guide.html in your repo, then click the pencil (edit) icon, and at the top where it shows the filename, change it to how-to-guide/index.html — GitHub will move it into a new folder automatically when you commit.
+
+You said: okay, so you know that index.
+okay, so you know that index.html file with the one you gave me earlier. I deleted the one that was there when we started today so I hope that was the plan
+
+12:53 AM
+Claude responded: Yes, that was the plan — the new index.
+Yes, that was the plan — the new index.html I built replaces the original. It has all the same content plus the new guide cards linking to the three new pages. You're good.
+
+Now click on how-to-guide.html in your repo and let's get it moved into its folder.
+
+You said: done
+done
+
+12:54 AM
+Claude responded: Good.
+Good. Now click into the promos folder and tell me what's inside it.
+
+You said: done, meaning I clicked on how-to-guide.
+done, meaning I clicked on how-to-guide.html
+
+12:54 AM
+Claude responded: Got it — so you clicked the pencil to edit it.
+Got it — so you clicked the pencil to edit it. Now in the filename field at the top, change how-to-guide.html to:
+
+how-to-guide/index.html
+Then scroll down and commit the change.
+
+You said: no, I clicked on the file.
+no, I clicked on the file. please stop assuming
+
+12:55 AM
+Claude responded: Got it.
+Got it. What do you see?
+
+Screen Shot 2026-05-09 at 12.55.12 AM.png
+12:55 AM
+Claude responded: Good.
+Good. Now click the pencil icon (✏️) in the top right of the code view to edit the file. That's what lets you rename it.
+
+You said: what shall we rename it?
+what shall we rename it?
+
+12:55 AM
+Claude responded: Type this in the filename field:
+Type this in the filename field:
+
+how-to-guide/index.html
+That moves it into its own folder and renames it to index.html at the same time.
+
+Screen Shot 2026-05-09 at 12.57.31 AM.png
+12:57 AM
+Claude responded: You're inside the promos folder and there's already an index.
+You're inside the promos folder and there's already an index.html in there — but that's the old one from 5 days ago, not the one we built today. Click on that index.html so we can replace it with the new file.
+
+You said: I replaced the index file
+I replaced the index file
+
+1:00 AM
+Claude responded: Good.
+Good. Now do the same for the providers folder — go back to root, click into providers, and replace the index.html in there with the new providers.html we built today.
+
+You said: okay, providers and promos done
+okay, providers and promos done
+
+1:11 AM
+Claude responded: Good.
+Good. Now go back to root and click on how-to-guide.html — we need to move it into its own folder by renaming it to how-to-guide/index.html.
+
+Screen Shot 2026-05-09 at 1.12.29 AM.png
+1:13 AM
+Claude responded: There are two files in there — how-to-guide.
+There are two files in there — how-to-guide.html and index.html. The index.html is the correct one (that's the renamed file from 16 minutes ago). The how-to-guide.html is a duplicate that needs to be deleted.
+
+Click on how-to-guide.html and delete it.
+
+
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>How to Get Your Florida MMJ Card in 2026 | Step-by-Step Guide | 850420.com</title> <meta name="description" content="Step-by-step guide to getting
+
+pasted
+
+1:14 AM
+Claude responded: That's the correct how-to-guide/index.
+That's the correct how-to-guide/index.html content — that's what should be in the folder.
+
+Now just delete the duplicate how-to-guide.html that's sitting alongside it in the same folder. Click on it, then click the trash icon to delete it.
+
+You said: that's what's in there now
+that's what's in there now
+
+1:14 AM
+Claude responded: Perfect — so how-to-guide/index.
+Perfect — so how-to-guide/index.html has the right content. Now delete the duplicate how-to-guide.html that's also in that same folder. Click on it then hit the trash icon.
+
+Screen Shot 2026-05-09 at 1.14.46 AM.png
+1:15 AM
+Claude responded: Click on how-to-guide.
+Click on how-to-guide.html then click the trash icon to delete it.
+
+You said: that's the new file.
+that's the new file. what next
+
+1:15 AM
+Claude responded: That how-to-guide.
+That how-to-guide.html is the new file you just uploaded — but it's in the wrong place. It should not be in the how-to-guide folder at all. The only file that should be in there is index.html.
+
+Click on how-to-guide.html and delete it.
+
+You said: you told me to put it there
+you told me to put it there
+
+1:16 AM
+Claude responded: You're right, my mistake.
+You're right, my mistake. Delete it and we'll move on.
+
+Screen Shot 2026-05-09 at 1.17.03 AM.png
+1:17 AM
+Claude responded: Perfect.
+Perfect. how-to-guide folder is clean — just index.html in there.
+
+Now go back to root and tell me what's in the providers and promos folders — specifically whether each one has only an index.html and nothing else.
+
+Screen Shot 2026-05-09 at 1.18.10 AM.png
+Screen Shot 2026-05-09 at 1.18.25 AM.png
+1:19 AM
+Claude responded: Same situation in both — duplicate files.
+Same situation in both — duplicate files. Delete promos.html from the promos folder, and delete providers.html from the providers folder. The index.html in each is the correct one.
+
+You said: okay, you told me to put those files in there, remember?
+okay, you told me to put those files in there, remember?
+
+1:20 AM
+Claude responded: You're right, I did.
+You're right, I did. My mistake — I should have told you to upload them directly as index.html from the start instead of uploading the named files and then cleaning up duplicates. Sorry for the extra work.
+
+Delete the duplicates and we're clean.
+
+You said: they're gone
+they're gone
+
+1:20 AM
+Claude responded: Good.
+Good. Here's where we stand:
+
+how-to-guide/index.html ✓
+providers/index.html ✓
+promos/index.html ✓
+index.html at root ✓
+Give it a minute for Netlify to deploy, then check these URLs:
+
+850420.com
+850420.com/how-to-guide/
+850420.com/providers/
+850420.com/promos/
+Tell me what you see.
+
+Screen Shot 2026-05-09 at 1.22.38 AM.png
+1:23 AM
+Claude responded: That's a GitHub Pages 404 — but your site is on Netlify, not GitHub Pages.
+That's a GitHub Pages 404 — but your site is on Netlify, not GitHub Pages. Try therulingclassreport.com — wait, wrong site.
+
+What's the Netlify URL for 850420? It would be something like 850420.netlify.app. Try that first while the custom domain gets sorted.
+
+You said: 850420.
+850420.com....
+
+1:23 AM
+Claude responded: That 404 is coming from GitHub Pages, not Netlify.
+That 404 is coming from GitHub Pages, not Netlify. Your domain is pointing to GitHub Pages instead of Netlify.
+
+Go to Netlify and check what domain is configured for this site — is 850420.com set up there, or is the Netlify site still on a .netlify.app URL?
+
+Screen Shot 2026-05-09 at 1.25.04 AM.png
+1:25 AM
+Claude responded: I don't see 850420.
+I don't see 850420.com in that list. Scroll down and see if it's there, or it may be the snazzy-starburst-ceccf0 site. Click on that one — it was last deployed from Netlify Drop which matches how 850420 was set up.
+
+You said: not there
+not there
+
+1:27 AM
+Claude responded: Scroll down further — there may be more sites.
+Scroll down further — there may be more sites. Or check snazzy-starburst-ceccf0 — click into it and see if 850420.com is the domain attached to it.
+
+You said: not THERE
+not THERE
+
+1:27 AM
+Claude responded: Click into snazzy-starburst-ceccf0 — that's the most likely candidate since it was deployed via Netlify Drop.
+Click into snazzy-starburst-ceccf0 — that's the most likely candidate since it was deployed via Netlify Drop.
+
+You said: AND LIKE I SAID IT IS NOT THERE
+AND LIKE I SAID IT IS NOT THERE
+
+1:27 AM
+Claude responded: Got it.
+Got it. The 850420 site is not in your Netlify account. That means it was likely deployed via Netlify Drop as a one-off and isn't connected to your GitHub repo at all.
+
+We need to create a proper Netlify site connected to your GitHub repo johnrspivey/850420. Go to Netlify and click Add new site → Import an existing project.
+
+You said: you need to figure out what is actually going on first instead of building this and spinning up that
+you need to figure out what is actually going on first instead of building this and spinning up that
+
+1:28 AM
+Claude responded: You're right.
+You're right. Let me think through what we actually know:
+
+850420.com is showing a GitHub Pages 404 — which means the domain's DNS is pointing to GitHub Pages, not Netlify
+The site is not in your Netlify account
+Your repo is johnrspivey/850420 on GitHub
+So the question is: how was 850420.com originally deployed? Was it ever on Netlify, or was it always on GitHub Pages?
+
+Check your repo settings — go to github.com/johnrspivey/850420, click Settings, then Pages on the left. Tell me what you see there.
+
+Screen Shot 2026-05-09 at 1.29.38 AM.png
+1:29 AM
+Claude responded: The site is on GitHub Pages, not Netlify.
+The site is on GitHub Pages, not Netlify. It's live at johnrspivey.github.io/850420 and deploying from your main branch. That's the actual host.
+
+Now scroll down on that same page and see if 850420.com is set as a custom domain.
+
+You said: no
+no
+
+1:30 AM
+Claude responded: So 850420.
+So 850420.com's DNS is pointing somewhere that's giving a GitHub Pages 404, but the custom domain isn't configured in GitHub Pages settings.
+
+Two options:
+
+Add 850420.com as a custom domain right here in GitHub Pages — scroll down on that settings page and you'll see a "Custom domain" field. Type 850420.com and hit Save.
+Or we move the whole thing to Netlify properly.
+Which do you want to do?
+
+You said: why would we move?
+why would we move?
+
+1:30 AM
+Claude responded: No reason to.
+No reason to. Add 850420.com in the custom domain field right there. Type it in and hit Save.
+
+You said: everything else seems to work.
+Screen Shot 2026-05-09 at 1.32.30 AM.png
+everything else seems to work. one thing I noticed is that when you click on links from the home page it works but you cannot tell if you don't know what to look for. it looks like nothing happens but you can see in the path that you are in the right place but the page looks exactly like the home page until you scroll down so it looks like nothing happens. maybe a heading on each page or something so non computer savvy people know it's working
+
+1:35 AM
+Claude responded: Good catch.
+Good catch. The hero on every page is visually similar — same black background, same lime stripe. A first-time visitor clicking "How-To Guide" sees what looks like the same page.
+
+The fix is easy — give each page a distinct hero accent color or a visible page label that's immediately obvious above the fold. Simplest approach: add a lime banner at the very top of each inner page that says what page you're on, before the hero even starts. Something like:
+
+[ YOU ARE HERE: HOW-TO GUIDE ]
+Full-width, high contrast, unmissable. Want me to build that into all three inner pages now?
+
+You said: please, and is there a script to fix them all quickly from the command line?
+please, and is there a script to fix them all quickly from the command line?
+
+1:36 AM
+Claude responded: Yes — I'll write a script that patches all three files at once, then you just copy the updated files back to GitHub.
+Yes — I'll write a script that patches all three files at once, then you just copy the updated files back to GitHub. Building it now.
+
+
+Ran 3 commands, read a file
+Ran 3 commands, read a file
+All three updated. Each page now has a lime banner immediately above the hero that reads:
+
+850420.com › 📋 HOW-TO GUIDE
+850420.com › 🏆 PROVIDER COMPARISON
+850420.com › 💰 PROMOS & DISCOUNTS
+The 850420.com part is a clickable link back to the homepage. Unmissable above the fold.
+
+Replace the index.html in each of the three GitHub folders with these updated files the same way you did before.
+
+
+How to guide
+Code · HTML 
+
+Providers
+Code · HTML 
+
+Promos
+Code · HTML 
+You said: so you gave me how to guide html and providers.
+so you gave me how to guide html and providers.html but I replace the index.html file in each of the listed folders with these files?
+
+1:44 AM
+Claude responded: Yes exactly.
+Yes exactly. Even though the files are named how-to-guide.html and providers.html when you download them, you upload them into GitHub and rename them to index.html inside their respective folders — replacing the existing index.html in each one.
+
+So:
+
+how-to-guide.html → upload into how-to-guide/ folder, name it index.html
+providers.html → upload into providers/ folder, name it index.html
+promos.html → upload into promos/ folder, name it index.html
+You said: okay did that not creat an issue renaming them like that before?
+okay did that not creat an issue renaming them like that before?
+
+1:45 AM
+Claude responded: Yes it did — that's how we ended up with duplicate files last time.
+Yes it did — that's how we ended up with duplicate files last time.
+
+Better approach: click into each folder, click the existing index.html, click the pencil to edit it, then paste the new file's content directly into the editor and commit. No renaming, no duplicates.
+
+
+
+
+
+
+Claude is AI and can make mistakes. Please double-check responses.
+How to guide · HTML
+Copy
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -112,10 +653,32 @@
       .facts-grid { grid-template-columns: repeat(2, 1fr); }
       .topbar { flex-direction: column; align-items: flex-start; }
     }
+ 
+    .page-banner {
+      background: var(--lime);
+      color: var(--black);
+      text-align: center;
+      padding: 10px 24px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: 1rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      border-bottom: 3px solid var(--black);
+    }
+    .page-banner a {
+      color: var(--black);
+      font-weight: 700;
+      text-decoration: none;
+      opacity: 0.6;
+      font-size: 0.85rem;
+    }
+    .page-banner a:hover { opacity: 1; }
+ 
   </style>
 </head>
 <body>
-
+ 
   <div class="topbar">
     <a class="topbar-logo" href="/">850420.com</a>
     <div class="topbar-links">
@@ -124,7 +687,12 @@
       <a class="topbar-link" href="/recommendations/best-vaporizers/">🌿 Best Vaporizers</a>
     </div>
   </div>
-
+ 
+ 
+  <div class="page-banner">
+    <a href="/">850420.com</a> &nbsp;›&nbsp; 📋 HOW-TO GUIDE
+  </div>
+ 
   <div class="hero">
     <div class="hero-stripe"></div>
     <div class="hero-inner">
@@ -134,14 +702,14 @@
       <div class="hero-meta">6 min read · Updated May 2026 · Florida statewide</div>
     </div>
   </div>
-
+ 
   <div class="container">
-
+ 
     <div class="quick-box">
       <div class="qlabel">⚡ Bottom Line Up Front</div>
       <p>Four steps. Book an in-person eval with a licensed FL physician → get entered into the state registry → pay the $75 state fee → shop at a dispensary <strong>the same day</strong>. Total cost starts at <strong>$114</strong>. Physical card arrives in about 10 business days.</p>
     </div>
-
+ 
     <section>
       <h2>Fast Facts</h2>
       <div class="facts-grid">
@@ -177,7 +745,7 @@
         </div>
       </div>
     </section>
-
+ 
     <section>
       <h2>Do You Qualify?</h2>
       <p>Florida law (Statute 381.986) lists specific qualifying conditions. A physician may also certify conditions "of the same kind or class" — so this list isn't the ceiling. Only a licensed Florida physician can determine if you qualify.</p>
@@ -201,7 +769,7 @@
         <strong>On anxiety and depression:</strong> These don't independently qualify in Florida. But if you have a listed qualifying condition — like PTSD or chronic pain — and also experience anxiety or depression alongside it, your physician can factor those in. Your doctor evaluates your full clinical picture.
       </div>
     </section>
-
+ 
     <section>
       <h2>What to Bring</h2>
       <p>Don't show up empty-handed. Having the right documents ready makes your appointment faster and your approval more straightforward.</p>
@@ -215,7 +783,7 @@
         <strong>⚖️ Florida Residency Requirement:</strong> You must be a Florida resident to qualify. A valid FL driver's license or state ID is the easiest proof. If your ID shows an out-of-state address, bring a utility bill, lease, or any government correspondence showing your current Florida address.
       </div>
     </section>
-
+ 
     <section>
       <div class="updated-badge">✓ Process verified May 2026</div>
       <h2>The Process — 5 Steps</h2>
@@ -252,7 +820,7 @@
         </li>
       </ol>
     </section>
-
+ 
     <section>
       <h2>How Long Does It Take?</h2>
       <p>The whole process — from booking to first dispensary visit — can happen in a single day if you move fast. Here's the typical timeline:</p>
@@ -266,7 +834,7 @@
         <li><div><strong>~10 business days after approval:</strong> Physical card arrives by mail. Most patients have already been shopping for a week or more by this point.</div></li>
       </ul>
     </section>
-
+ 
     <section>
       <h2>Renewals — Keep It Simple</h2>
       <p>After your initial in-person appointment, renewing your card is straightforward. Every renewal can be done via telehealth — no office visit required.</p>
@@ -281,9 +849,9 @@
         <strong>Set your reminders now:</strong> Put both expiration dates in your calendar with 45-day advance alerts. Losing either the physician cert or the state card means losing dispensary access until that specific one is renewed.
       </div>
     </section>
-
+ 
     <hr />
-
+ 
     <section>
       <h2>Common Questions</h2>
       <div class="faq-item">
@@ -319,33 +887,34 @@
         <div class="faq-a">Florida does not provide employment protections for MMJ cardholders. Employers can still require drug-free workplaces and test for cannabis. Federal employees and anyone subject to federal drug testing should consult a legal professional before applying. Cannabis remains federally controlled — housing and firearm purchase rules also apply.</div>
       </div>
     </section>
-
+ 
     <div class="cta-block">
       <h2>Ready to Get Started?</h2>
       <p>Cheapest path: $39 eval at Ozark MMJ Cards + $75 state fee = $114 total. Compare all providers before you book.</p>
       <a class="cta-btn" href="/providers/">Compare All Providers →</a>
       <div class="cta-note">Verified prices from every major Florida MMJ clinic · Updated May 2026</div>
     </div>
-
+ 
     <section>
       <h2>More Guides</h2>
       <p>→ <a href="/providers/">Florida MMJ Provider Comparison — Who's Cheapest in 2026</a></p>
       <p>→ <a href="/promos/">Active Promos, Discount Codes &amp; Dispensary Renewal Deals</a></p>
       <p>→ <a href="/">Back to Homepage — Full Cost Breakdown</a></p>
     </section>
-
+ 
     <section>
       <p style="font-size:0.82rem; color:#555; line-height:1.65;">
         <strong>Affiliate Disclosure:</strong> Some links on 850420.com are affiliate links. We may earn a commission at no extra cost to you. This does not affect our content — we only feature providers with verified pricing.<br><br>
         <strong>Medical Disclaimer:</strong> This article is for informational purposes only and does not constitute medical or legal advice. Only a licensed Florida physician can determine if you qualify for a medical marijuana card. Florida law prohibits recreational marijuana use — a valid MMJ card is required to legally purchase cannabis in the state. For official information, visit the Florida Office of Medical Marijuana Use (OMMU) at flhealthsource.gov/mmj.
       </p>
     </section>
-
+ 
   </div>
-
+ 
   <footer>
     <p>© 2026 <a href="/">850420.com</a> · Florida MMJ Resource · Updated May 2026</p>
   </footer>
-
+ 
 </body>
 </html>
+ 
